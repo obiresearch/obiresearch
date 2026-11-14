@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirecting to Booking page...</title>
+    <meta http-equiv="refresh" content="0; url=https://bookings.cloud.microsoft/bookwithme/user/61c1c6987def44bf8592648a603b60b0@ClaremontMcKenna.edu?anonymous&ismsaljsauthenabled&ep=plink" />
+    <link rel="canonical" href="https://bookings.cloud.microsoft/bookwithme/user/61c1c6987def44bf8592648a603b60b0@ClaremontMcKenna.edu?anonymous&ismsaljsauthenabled&ep=plink" />
+    <script>
+      window.location.replace("https://bookings.cloud.microsoft/bookwithme/user/61c1c6987def44bf8592648a603b60b0@ClaremontMcKenna.edu?anonymous&ismsaljsauthenabled&ep=plink");
+    </script>
+  </head>
+  <body>
+    <p>Redirecting to office hours booking page. If you are not redirected automatically, <a href="https://bookings.cloud.microsoft/bookwithme/user/61c1c6987def44bf8592648a603b60b0@ClaremontMcKenna.edu?anonymous&ismsaljsauthenabled&ep=plink">click here</a>.</p>
+  </body>
+</html>
