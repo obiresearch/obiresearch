@@ -485,19 +485,30 @@ h1, h2, h3, h4 { font-family: var(--font-heading); color: var(--color-primary); 
 .alumni-column h4 { margin-bottom: 1rem; }
 .alumni-column li { padding: 0.4rem 0; color: var(--color-text-light); font-size: 0.95rem; }
 
-/* ===== NEWS TIMELINE ===== */
-.timeline { position: relative; padding-left: 2rem; border-left: 3px solid var(--color-bg-alt); }
-.timeline-item { margin-bottom: 2.5rem; position: relative; }
+/* ===== NEWS TIMELINE (UPDATED) ===== */
+.timeline {
+  position: relative;
+  padding-left: 2rem;
+  border-left: 3px solid var(--color-bg-alt);
+}
+
+.timeline-item {
+  margin-bottom: 2.5rem;
+  position: relative;
+}
+
 .timeline-item::before {
   content: '';
   position: absolute;
   left: -2.45rem;
   top: 0.3rem;
-  width: 14px; height: 14px;
+  width: 14px;
+  height: 14px;
   border-radius: 50%;
   background: var(--color-accent);
   border: 3px solid white;
 }
+
 .timeline-date {
   display: block;
   font-weight: 700;
@@ -505,11 +516,43 @@ h1, h2, h3, h4 { font-family: var(--font-heading); color: var(--color-primary); 
   margin-bottom: 0.4rem;
   font-size: 0.9rem;
 }
-.timeline-content h3 { font-size: 1.1rem; margin: 0.4rem 0; }
-.timeline-content p { color: var(--color-text-light); font-size: 0.95rem; }
-.badge-talk { background: #4a6fa5; }
-.badge-award { background: #c48f00; }
-.badge-pub { background: var(--color-accent); }
+
+.timeline-content h3 {
+  font-size: 1.1rem;
+  margin: 0.4rem 0;
+}
+
+.timeline-content p {
+  color: var(--color-text-light);
+  font-size: 0.95rem;
+}
+
+/* Timeline badge styles */
+.timeline-content .badge {
+  display: inline-block;
+  color: white;
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 0.35rem 0.8rem;
+  border-radius: 12px;
+  margin-right: 0.6rem;
+  margin-bottom: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  vertical-align: middle;
+}
+
+.badge-talk {
+  background: #4a6fa5;
+}
+
+.badge-award {
+  background: #c48f00;
+}
+
+.badge-pub {
+  background: var(--color-accent);
+}
 
 /* ===== RESOURCES / PASSWORD GATE ===== */
 .password-gate {
